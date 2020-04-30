@@ -176,7 +176,7 @@ if __name__ == '__main__':
                                                 shuffle = False,
                                                 num_workers = 8)
     print('\nload model ...')
-    model = torch.load(os.path.join(path_prefix, 'val_acc_0.000.model'))
+    model = torch.load(os.path.join(path_prefix, 'model.model'))
     outputs = testing(batch_size, test_loader, model, device)
 
     # 寫到 csv 檔案供上傳 Kaggle
