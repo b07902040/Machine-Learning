@@ -28,6 +28,15 @@ model = word2vec.Word2Vec(x, size=300, window=5,
  min_count=5, workers=12, iter=10, sg=1)
 ```
 訓練過程:
+
+![](D:\桌面\Download\Problem1_loss (2).png)
+
+![Problem1_acc (2)](D:\桌面\Download\Problem1_acc (2).png)
+
+正確率:
+
+在kaggle public上為82.421%
+
 #### 2.	(2%) 請比較BOW+DNN與RNN兩種不同model對於"today is a good day, but it is hot"與"today is hot, but it is a good day"這兩句的分數(過softmax後的數值)，並討論造成差異的原因。 
 String1 = "today is a good day, but it is hot"
 
