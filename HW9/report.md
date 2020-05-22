@@ -10,11 +10,15 @@
 改進前:
 
 The clustering accuracy is: 0.592
+
 ![](https://i.imgur.com/lYjfpwF.png)
+
 改進後:
 
 The clustering accuracy is: 0.822
+
 ![](https://i.imgur.com/AHPlDXy.png)
+
 可以發現改進後，分群的效果明顯更好
 
 #### c.盡量詳細說明你做了哪些改進。
